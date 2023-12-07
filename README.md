@@ -12,8 +12,3 @@ Here are examples of the work in progress:
 ![image](https://github.com/andresmessina1701/GNOME45-Zorin-themeing/assets/106823094/73cebedf-4b0c-4960-bd95-4def05d0f833)
 
 ![image](https://github.com/aureliuspublius/GNOME45-Zorin-themeing/assets/106823094/a6d6bf0f-d899-4c34-990f-81909b726bfd)
-
-And here is a clear area in need of improvement, the NewsFlash app:
-
-![image](https://github.com/aureliuspublius/GNOME45-Zorin-themeing/assets/106823094/63297604-f015-4229-83db-ced5ca2d7a5c)
-![image](https://github.com/aureliuspublius/GNOME45-Zorin-themeing/assets/106823094/cf057f70-8291-42a3-b67e-f0c2cdaa2405)
