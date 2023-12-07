@@ -1,3 +1,5 @@
+/* the contents of this file should replace your ~/.config/GTK-4.0/gtk.css file */
+
 @define-color accent_bg_color #bde6fb;
 @define-color accent_fg_color #171d20;
 @define-color accent_color #bde6fb;
@@ -26,11 +28,13 @@
 @define-color sidebar_fg_color #a0defe;
 @define-color sidebar_border_color #a0defe;
 @define-color sidebar_backdrop_color #1E2529;
-@define-color sidebar_shade_color rgba(189, 230, 251);
+@define-color sidebar_shade_color #2a3439;
+@define-color sidebar_highlight_color #BDE6FB;
 @define-color secondary_sidebar_bg_color #1E2529;
 @define-color secondary_sidebar_fg_color #a0defe;
 @define-color secondary_sidebar_backdrop_color #1E2529;
-@define-color secondary_sidebar_shade_color rgba(189, 230, 251);
+@define-color secondary_sidebar_shade_color #2a3439;
+@define-color secondary_sidebar_highlight_color #BDE6FB;
 @define-color card_bg_color #171d20;
 @define-color card_fg_color #bde6fb;
 @define-color card_shade_color #2a3439;
@@ -40,6 +44,11 @@
 @define-color popover_fg_color #bde6fb;
 @define-color shade_color #2a3439;
 @define-color scrollbar_outline_color #2a3439;
+@define-color theme_selected_fg_color #1E2529;
+@define-color theme_bg_color #BDE6FB;
+
+/* color definitions */
+
 @define-color blue_1 #99c1f1;
 @define-color blue_2 #62a0ea;
 @define-color blue_3 #3584e4;
@@ -127,3 +136,25 @@
 @define-color wm_button_active_color_a shade(#1e2529, 0.85);
 @define-color wm_button_active_color_b shade(#1e2529, 0.89);
 @define-color wm_button_active_color_c shade(#1e2529, 0.9);
+
+/* NewsFlash-specific fixes */
+
+@define-color custom_color_for_item_count_label #1E2529;
+@define-color custom_color_for_item_count_all_label #1E2529;
+
+.item-count {
+  color: @custom_color_for_item_count_label;
+}
+
+.item-count-all {
+  color: @custom_color_for_item_count_all_label;
+}
+
+/* Apply custom colors to the pill-shaped frame */
+.item-count,
+.item-count-all {
+  background-color: #BDE6FB;
+  border: 1px solid #BDE6FB;
+  border-radius: 10px; /* Adjust the border-radius value to match the pill shape */
+  padding: 2px 8px; /* Adjust the padding to control the space around the number */
+}
